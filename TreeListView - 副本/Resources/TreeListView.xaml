@@ -106,7 +106,7 @@
                                         x:Name="Expander"
                                         ClickMode="Press"
                                         IsChecked="{Binding Path=IsExpanded, RelativeSource={x:Static RelativeSource.TemplatedParent}, Mode=TwoWay}"
-                                        Style="{StaticResource MaterialDesignExpandCollapseToggleStyle}" />
+                                        Style="{StaticResource ExpandCollapseToggleStyle}" />
                                 </Grid>
                                 <GridViewRowPresenter
                                     x:Name="PART_Header"

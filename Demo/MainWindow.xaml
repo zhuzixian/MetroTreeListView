@@ -11,7 +11,7 @@
     Height="350"
     mc:Ignorable="d">
     <Window.DataContext>
-        <local:MainViewModel />
+        <local:MainViewModel></local:MainViewModel>
     </Window.DataContext>
     <Grid>
         <treeListView:TreeListView
