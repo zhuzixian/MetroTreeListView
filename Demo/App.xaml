@@ -21,8 +21,6 @@
 
                 <ResourceDictionary Source="pack://application:,,,/TreeListView;component/Resources/TreeListView.xaml" />
             </ResourceDictionary.MergedDictionaries>
-
-
         </ResourceDictionary>
     </Application.Resources>
 </Application>

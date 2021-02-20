@@ -123,12 +123,12 @@
                             <Setter TargetName="ItemsHost" Property="Visibility" Value="Collapsed" />
                         </Trigger>
                         <Trigger SourceName="Bd" Property="IsMouseOver" Value="True">
-                            <Setter Property="Foreground" Value="{DynamicResource BlackColorBrush}" />
-                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource AccentColorBrush3}" />
+                            <Setter Property="Foreground" Value="{DynamicResource PrimaryHueMidForegroundBrush}" />
+                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource PrimaryHueMidBrush}" />
                         </Trigger>
                         <Trigger Property="IsSelected" Value="True">
-                            <Setter Property="Foreground" Value="{DynamicResource AccentSelectedColorBrush}" />
-                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource AccentColorBrush}" />
+                            <Setter Property="Foreground" Value="{DynamicResource PrimaryHueLightForegroundBrush}" />
+                            <Setter TargetName="Bd" Property="Background" Value="{DynamicResource PrimaryHueLightBrush}" />
                         </Trigger>
                         <Trigger Property="HasItems" Value="False">
                             <Setter TargetName="Expander" Property="Visibility" Value="Hidden" />
