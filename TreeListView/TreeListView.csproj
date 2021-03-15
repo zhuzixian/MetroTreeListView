@@ -3,5 +3,6 @@
     <TargetFrameworks>net452;net5.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Authors>Shady</Authors>
   </PropertyGroup>
 </Project>
