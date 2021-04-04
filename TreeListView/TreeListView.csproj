@@ -4,6 +4,6 @@
     <UseWPF>true</UseWPF>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Authors>Shady</Authors>
-    <Version>1.0.2</Version>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 </Project>
